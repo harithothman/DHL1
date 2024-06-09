@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHLOne", "DHLOne\DHLOne.csproj", "{6824DC80-6D12-44B8-B949-E4D759EC5CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DHLOne", "DHLOne\DHLOne.csproj", "{6824DC80-6D12-44B8-B949-E4D759EC5CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHL1.Ultility", "DHL1.Ultility\DHL1.Ultility.csproj", "{FE3EDE43-222F-4677-8502-0C18DBD43479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6824DC80-6D12-44B8-B949-E4D759EC5CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6824DC80-6D12-44B8-B949-E4D759EC5CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6824DC80-6D12-44B8-B949-E4D759EC5CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3EDE43-222F-4677-8502-0C18DBD43479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3EDE43-222F-4677-8502-0C18DBD43479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3EDE43-222F-4677-8502-0C18DBD43479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3EDE43-222F-4677-8502-0C18DBD43479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
