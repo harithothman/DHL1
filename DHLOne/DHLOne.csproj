@@ -27,4 +27,8 @@
     <ProjectReference Include="..\DHL1.Ultility\DHL1.Ultility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

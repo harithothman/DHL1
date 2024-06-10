@@ -9,10 +9,26 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DHLOne.styles.css" asp-append-version="true" />
+    <style>
+        .dhl-navbar-yellow {
+            background-color: #FFCC00;
+        }
+
+            .dhl-navbar-yellow .navbar-brand,
+            .dhl-navbar-yellow .nav-link,
+            .dhl-navbar-yellow .navbar-toggler-icon {
+                color: #BA0C2F; /* DHL red for text */
+            }
+
+                .dhl-navbar-yellow .nav-link:hover {
+                    color: white; /* Optional: white for hover effect */
+                }
+
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 dhl-navbar-yellow">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DHLOne</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
