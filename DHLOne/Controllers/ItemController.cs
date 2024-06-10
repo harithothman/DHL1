@@ -1,9 +1,12 @@
-﻿using DHLOne.Data;
+﻿using DHL1.Ultility;
+using DHLOne.Data;
 using DHLOne.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DHLOne.Controllers
 {
+    [Authorize(Roles = SD.Role_Admin)]
     public class ItemController : Controller
     {
         private readonly ApplicationDbContext _db;
