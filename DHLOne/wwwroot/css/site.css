@@ -18,5 +18,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-image: url('../images/dhl_background5.jpg');
+    background-size: cover;
+    margin-bottom: 60px;
 }
